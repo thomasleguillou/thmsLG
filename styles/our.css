@@ -1,0 +1,56 @@
+@import url('Knacss.css');
+body {margin: 20px; color:white}
+div { padding: 10px;}
+.line { padding: 20px;}
+.icone{ text-align:center}
+aside { padding: 10px;}
+.header{background:black;color:white}
+
+body {
+width: 1000px;
+margin: auto;
+}
+
+body, html { height:100%; ;}
+.page { height:100%; width:100%; display:table;}
+.container { display:table-cell; vertical-align:middle; margin:0; }
+.content { background: black; margin:0px; padding:0;}
+.kitty{ text-align:center;background:white;}
+.nom {padding-top:30px; padding-left:30px;}
+.trailer {padding-right:30px;}
+
+h4 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: auto;
+}
+
+.triptique .col:nth-child(1) {background: #5baaec;}
+.triptique .col:nth-child(1) .line:nth-child(1) {background: #7bbbef}
+.triptique .col:nth-child(1) .line:nth-child(2) {background: #5baaec}
+
+.triptique .col:nth-child(2) {background: white}
+.triptique .col:nth-child(2) .line:nth-child(1) {background: #EEEEEE;color:black}
+.triptique .col:nth-child(2) .line:nth-child(2) {background: white}
+
+.triptique .col:nth-child(3) {background: #e3e6dc}
+.triptique .col:nth-child(3) .line:nth-child(1) {background: #b5b8b0}
+.triptique .col:nth-child(3) .line:nth-child(2) {background: #e3e6dc}
+
+
+#introduceWords {padding-top:20px;}
+.words {text-align:center; background: black; color:white;}
+.words .col:nth-child(2) {font-size: 1.7143em;}
+.words .col:nth-child(3) {font-size: 1.7143em;}
+.words .col:nth-child(4) {font-size: 1.7143em;}
+
+a  {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#5baaec;
+	text-decoration:none;
+}
