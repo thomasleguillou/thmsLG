@@ -1,4 +1,12 @@
 @import url('Knacss.css');
+
+@font-face {
+    font-family: 'Aleo-Light';
+    src: url('../typo/Aleo-Light.otf');
+    font-weight: light;
+    font-style: normal;
+}
+
 body {margin: 20px; color:white}
 div { padding: 10px;}
 .line { padding: 20px;}
@@ -16,7 +24,7 @@ body, html { height:100%; ;}
 .container { display:table-cell; vertical-align:middle; margin:0; }
 .content { background: black; margin:0px; padding:0;}
 .kitty{ text-align:center;background:white;}
-.nom {padding-top:30px; padding-left:30px;}
+.nom {font-family:"Aleo-Light";padding-top:30px; padding-left:30px;font-size:1.2em}
 .trailer {padding-right:30px;}
 
 h4 {
