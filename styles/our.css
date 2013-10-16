@@ -2,10 +2,12 @@
 
 
 body { 
-width: 1000px;
-margin: auto;
-		color:white;
-		font-family: "Open Sans", sans-serif;}
+	width: 1000px;
+	margin: auto;
+	color:white;
+	font-family: "Open Sans", sans-serif;
+	font-size:1.5em;
+}
 
 div { padding: 10px;}
 .line { padding: 20px;}
