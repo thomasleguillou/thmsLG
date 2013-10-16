@@ -1,23 +1,17 @@
 @import url('Knacss.css');
 
-@font-face {
-    font-family: 'Aleo-Light';
-    src: url('../typo/Aleo-Light.otf');
-    font-weight: light;
-    font-style: normal;
-}
 
-body {margin: 20px; color:white}
+body { 
+width: 1000px;
+margin: auto;
+		color:white;
+		font-family: "Open Sans", sans-serif;}
+
 div { padding: 10px;}
 .line { padding: 20px;}
 .icone{ text-align:center}
 aside { padding: 10px;}
 .header{background:black;color:white}
-
-body {
-width: 1000px;
-margin: auto;
-}
 
 body, html { height:100%; ;}
 .page { height:100%; width:100%; display:table;}
