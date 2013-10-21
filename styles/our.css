@@ -3,32 +3,53 @@
 body { 
 	width: 100%;
 	margin: auto;
-	color:white;
+	color:black;
 	font-family: "Open Sans", sans-serif;
-	font-size:1.5em;
+	font-size:1.6em;
+	background:black;
+	text-align:center;
 }
 
-.name { padding: 30px;
+.name { 
+	padding: 30px;
+	padding-left:50px;
 	font-family: "Satisfy", sans-serif;
 	font-size:2em}
 
-.synopsis { padding: 20px;}
+.line { 
+	text-align:center;
+	padding:20px;
+}
 
-.adress { padding: 20px;}
+.row { 
+	text-align:center;
+	padding:20px;
+}
 
-.line { padding: 20px;}
+.icone{ 
+	text-align:center}
 
-.icone{ text-align:center}
-aside { padding: 10px;}
+.header{
+	background:#8EEC6A;
+	color:black;
+	border-bottom-style:solid;
+	border-bottom-width:5px
+	}
 
-.header{background:#8EEC6A;color:black}
+
+.content { 
+	background: #EEEEEE;
+	color:black;
+	margin:0px; 
+	padding:0;
+	text-align:center;}
 
 
-.content { background: black; margin:0px; padding:0;}
-.kitty{ text-align:center;background:white;}
-.nom {padding-top:30px; padding-left:30px;font-size:1.2em}
-.trailer {padding-right:30px;}
-
+.kitty{ 
+	text-align:center;
+	background:white;
+	}
+	
 h4 {
     font-size: 1em;
     font-weight: bold;
@@ -36,36 +57,39 @@ h4 {
     margin: auto;
 }
 
+a {
+	color:black;
+	text-decoration:none;
+}
 
-.linkedin {background: #e3e6dc}
-.linkedin .line:nth-child(1) {background: #b5b8b0;color:white;}
-.linkedin .line:nth-child(2) {background: #e3e6dc}
+a:hover{
+	color:#5baaec;
+	text-decoration:none;
+}
 
-.blog {background: #3BDA00}
-.blog .line:nth-child(1) {background: #8EEC6A;color:black}
-.blog.line:nth-child(2) {background: #3BDA00}
+.header a {
+	color:black;
+	text-decoration:none;
+}
 
-.github {background: white}
-.github .line:nth-child(1) {background: #EEEEEE;color:black}
-.github .line:nth-child(1) a:hover{background: #EEEEEE;color:red}
-.github .line:nth-child(2) {background: white}
+.header a:hover {
+	color:#5baaec;
+	text-decoration:none;
+}
 
-.twitter {background: #5baaec;}
-.twitter .line:nth-child(1) {background: #7bbbef;color:white;}
-.twitter .line:nth-child(2) {background: #5baaec}
-
-#introduceWords {padding-top:20px;}
+.introduceWords {padding-top:10px;}
 .words {text-align:center; background: black; color:white;}
 .words .col:nth-child(2) {font-size: 1.7143em;}
 .words .col:nth-child(3) {font-size: 1.7143em;}
 .words .col:nth-child(4) {font-size: 1.7143em;}
 
-a {
+
+.words a {
 	color:white;
 	text-decoration:none;
 }
 
-a:hover{
+.words a:hover{
 	color:#5baaec;
 	text-decoration:none;
 }
