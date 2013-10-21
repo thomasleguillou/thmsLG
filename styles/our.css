@@ -11,14 +11,12 @@ body {
 }
 
 .name { 
-	padding: 30px;
-	padding-left:50px;
 	font-family: "Satisfy", sans-serif;
-	font-size:2em}
+	font-size:2em;
+	}
 
 .line { 
 	text-align:center;
-	padding:20px;
 }
 
 .row { 
@@ -33,7 +31,8 @@ body {
 	background:#8EEC6A;
 	color:black;
 	border-bottom-style:solid;
-	border-bottom-width:5px
+	border-bottom-width:5px;
+	padding:20px;
 	}
 
 
@@ -42,8 +41,17 @@ body {
 	color:black;
 	margin:0px; 
 	padding:0;
-	text-align:center;}
-
+	text-align:center;
+	border-bottom-style:solid;
+	border-bottom-color:#8EEC6A;
+	border-bottom-width:5px;
+	padding-top:20px;
+}
+.underlined{
+	border-bottom-style:solid;
+	border-bottom-color:#323232;
+	border-bottom-width:1px;
+}
 
 .kitty{ 
 	text-align:center;
@@ -51,7 +59,7 @@ body {
 	}
 	
 h4 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
     line-height: 1em;
     margin: auto;
