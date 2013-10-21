@@ -5,18 +5,19 @@ body {
 	margin: auto;
 	color:black;
 	font-family: "Open Sans", sans-serif;
-	font-size:1.6em;
+	font-size:1.8em;
 	background:black;
 	text-align:center;
 }
 
 .name { 
 	font-family: "Satisfy", sans-serif;
-	font-size:2em;
+	font-size:2.4em;
 	}
 
 .line { 
 	text-align:center;
+	padding-top:10px;
 }
 
 .row { 
@@ -59,7 +60,7 @@ body {
 	}
 	
 h4 {
-    font-size: 1.1em;
+    font-size: 1.9em;
     font-weight: bold;
     line-height: 1em;
     margin: auto;
