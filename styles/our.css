@@ -67,6 +67,7 @@ body {
 }
 .italic {
 	font-style:italic;
+	font-size:1.5em;
 }
 .kitty{ 
 	text-align:center;
