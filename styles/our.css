@@ -89,3 +89,9 @@ a:hover{
 	color:#5baaec;
 	text-decoration:none;
 }
+
+.langage{
+	text-align:left;
+	padding-left:20px;
+	font-size:0.7em;	
+}
