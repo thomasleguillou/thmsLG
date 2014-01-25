@@ -7,5 +7,9 @@ body {
 
 .jumbotron h1 { 
 	font-family: "Satisfy", sans-serif;
-	text-shadow: 4px 3px 0px white, 9px 8px 0px rgba(0, 0, 0, 0.15)
+	text-shadow: 4px 3px 0px #EEEEEE, 9px 8px 0px rgba(0, 0, 0, 0.15)
+}
+
+.jumbotron {
+background:#8EEC6A;
 }
