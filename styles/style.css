@@ -1,0 +1,15 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image:url('../images/img-noise-361x370.png');
+}
+
+.jumbotron h1 { 
+	font-family: "Satisfy", sans-serif;
+	text-shadow: 4px 3px 0px #EEEEEE, 9px 8px 0px rgba(0, 0, 0, 0.15)
+}
+
+.jumbotron {
+background:#8EEC6A;
+}
